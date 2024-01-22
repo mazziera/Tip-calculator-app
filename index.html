@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+
+  <script src="index.js" defer></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+  <section class="image-container">
+    <img src="src/images/logo.svg" alt="splitter">
+  </section>
+
+  <main class="main-container">
+
+    <section class="card-container">
+
+      <section class="form-container">
+
+        <label id="label-1">Bill</label>
+        <input type="number" class="numbers-input input-price">
+
+        <label id="label-2">Select Tip %</label>
+
+        <ul class="percentage">
+
+          <li>
+            <button class="button-numbers percentage-tip" value="5">5%</button>
+          </li>
+
+          <li>
+            <button class="button-numbers percentage-tip" value="10">10%</button>
+          </li>
+
+          <li>
+            <button class="button-numbers percentage-tip" value="15">15%</button>
+          </li>
+
+          <li>
+            <button class="button-numbers percentage-tip" value="25">25%</button>
+          </li>
+
+          <li>
+            <button class="button-numbers percentage-tip" value="50">50%</button>
+          </li>
+          
+          <li>
+            <input type="text" placeholder="Custom" id="custom-input" class="button-numbers">
+          </li>
+        </ul>
+
+        <label id="label-3">Number of People </label>
+        <input type="number" class="numbers-input input-people"> 
+
+      </section>
+
+      <section class="result-container">
+
+        <p class="amount">
+          Tip Amount  <br> / person <span id="tip-amount">$ 0.00</span>
+          
+        </p>
+
+        <p class="amount">Total <br>  / person  <span id="total-person">$ 0.00</span>
+          
+        </p>
+
+          <button class="reset-button">RESET</button>
+      </section>
+    </section>
+  </main>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+</body>
+</html>
