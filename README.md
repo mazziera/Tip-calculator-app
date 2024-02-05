@@ -39,8 +39,8 @@ Os usuários devem ser capazes de:
 
 ## Links
 
-- Repositório: 
-- Deploy: 
+- Repositório: https://github.com/mazziera/Tip-calculator-app
+- Deploy: https://mazziera.github.io/Tip-calculator-app/
 
 ## Meu Processo
 
